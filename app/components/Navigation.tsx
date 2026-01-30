@@ -55,7 +55,7 @@ const Navigation = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8 ">
             {navItems.map((item) => (
-              <div key={item.name} className="relative group font-semibold">
+              <div key={item.name} className="relative group ">
                 {item.submenu ? (
                   <>
                     <button className="flex items-center text-gray-700  hover:text-blue-600 transition-colors">
